@@ -1,0 +1,1 @@
+import{r as a}from"./index-B3V_O1ip.js";function r(t,e){a.useEffect(()=>{document.title=t;const o=document.querySelector('meta[name="description"]');o&&e&&o.setAttribute("content",e)},[t,e])}export{r as u};

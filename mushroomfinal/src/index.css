@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-cream text-neutral-900 antialiased;
+}
+
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-semibold transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-moss text-white hover:bg-forest;
+}
+
+.btn-outline {
+  @apply border border-moss text-moss hover:bg-moss hover:text-white;
+}
